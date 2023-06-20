@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tipos de Triângulos</title>
+    <!-- fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+
+  </head>
+
+  <body>
+    <main class="container-principal">
+      <h1>Equilátero, isóceles ou escaleno</h1>
+      <section class="campo-interacao"> 
+        <p class="txt">
+          <label for="box-num1">Primeiro lado (em cm):</label>
+          <input type="number" id="box-num1" />
+        </p>
+        <p class="txt">
+          <label for="box-num2">Segundo lado (em cm):</label>
+          <input type="number" id="box-num2" />
+        </p>
+        <p class="txt">
+          <label for="box-num3">Terceiro lado (em cm):</label>
+          <input type="number" id="box-num3" />
+        </p>
+        <p class="txt">
+          <input
+            type="button"
+            id="box-enviar"
+            value="Enviar"
+          />
+        </p>
+
+        <div>
+            <p id="res" class="txt">
+                Resultado:
+            </p> 
+            <img id="res-img">
+        </div>
+      </section>
+    </main>
+
+    <footer><p class="txt">Feito por Mia Luz</p></footer>
+  </body>
+</html>
